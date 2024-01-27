@@ -21,6 +21,13 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: space-around;
+}
+
+/* Set cursor to pointer and box-shadow on hover for stats-container */
+.stats-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
